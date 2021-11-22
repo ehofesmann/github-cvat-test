@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1528</id>
+      <name>FiftyOne_2021.11.22.11.32.59</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-11-22 16:33:00.159337+00:00</created>
+      <updated>2021-11-22 16:33:00.736080+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>bird</name>
+          <color>#404040</color>
+          <attributes>
+            <attribute>
+              <name>label_id</name>
+              <mutable>True</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>attribute:iscrowd</name>
+              <mutable>True</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>attribute:area</name>
+              <mutable>True</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>1613</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>httplocalhost:8080/?id=1613</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>eric</username>
+        <email>eric.hofesmann@voxel51.com</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-11-22 16:33:28.459092+00:00</dumped>
+  </meta>
+  <image id="0" name="000000.jpg" width="640" height="480">
+    <box label="bird" occluded="0" source="manual" xtl="135.00" ytl="2.00" xbr="431.00" ybr="455.00" z_order="0">
+      <attribute name="label_id">5f452471ef00e6374aac53c8</attribute>
+      <attribute name="attribute:area">73790.37944999996</attribute>
+      <attribute name="attribute:iscrowd">0.0</attribute>
+    </box>
+    <box label="bird" occluded="0" source="manual" xtl="480.00" ytl="235.00" xbr="618.00" ybr="346.00" z_order="0">
+      <attribute name="label_id">5f452471ef00e6374aac53c9</attribute>
+      <attribute name="attribute:area">3935.7593000000006</attribute>
+      <attribute name="attribute:iscrowd">0.0</attribute>
+    </box>
+    <box label="bird" occluded="0" source="manual" xtl="28.00" ytl="254.00" xbr="125.00" ybr="321.00" z_order="0">
+      <attribute name="label_id">5f452471ef00e6374aac53ca</attribute>
+      <attribute name="attribute:area">4827.32605</attribute>
+      <attribute name="attribute:iscrowd">0.0</attribute>
+    </box>
+  </image>
+</annotations>
